@@ -1,0 +1,22 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "rootDir": ".",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "target": "ES2015",
+        "module": "ES2020",
+        "lib": ["ES2018", "dom"],
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@ns-microfrontend/my-ui-lib": ["my-ui-lib/src/index.ts"]
+        }
+    },
+    "exclude": ["node_modules", "tmp"]
+}

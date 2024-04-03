@@ -1,0 +1,19 @@
+.remote-menu {
+    display: flex;
+    list-style-type: none;
+
+    li a {
+        text-decoration: none;
+        color: black;
+        line-height: 1.5;
+        tab-size: 4;
+        margin: 16px;
+    }
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
